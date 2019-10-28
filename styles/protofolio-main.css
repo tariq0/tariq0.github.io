@@ -1,0 +1,369 @@
+/*
+    font-family: 'Rock Salt', cursive;
+
+    font-family: 'Nanum Pen Script', cursive;
+
+    squares font
+    font-family: 'Orbitron', sans-serif; 
+
+    font-family: 'Libre Baskerville', serif;
+
+
+
+
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Zeyada', cursive;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Pangolin', cursive;
+
+    font-family: 'Dancing Script', cursive;
+
+
+
+    
+
+*/
+
+@font-face {
+    font-family: 'diamond dust';
+    src: url('../fonts/herofonts_diamond-dust/Diamond\ Dust\ -\ PERSONAL\ USE\ ONLY.ttf');
+}
+
+/*--------------------------Global------------------------------*/
+
+body{
+    font-size: 3.6vw;
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    font-size:9vw;
+}
+h2{
+    font-size: 7.5vw;
+}
+h3{
+    font-size:6.5vw;
+}
+h4{
+    font-size: 5vw;
+}
+
+
+.section-header{
+    text-align: center;
+}
+
+section{
+    margin-top: 20vw;
+}
+
+/*--------------------------Header-----------------------------*/
+body{
+    margin: 0 ;
+    padding: 0 ;
+   width: 100%;
+}
+
+/*
+    takecare width in vw takes the full width and if scrolls appeared
+    it shows horizontal scrolls to compensate waste width by scrolls.
+*/
+
+#header{
+    margin: 0;
+    padding: 0;
+    width:100%;
+   
+}
+
+#header .navbar{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#header .header-img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#header .header-text-container{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:65vw;
+    color: white;
+    
+}
+
+
+#header .header-title{
+    font-family: 'Rock Salt', cursive;
+    /* font-size: 1.7em; */
+    font-weight: 600;
+}
+
+#header .job{
+    font-family: 'Nanum Pen Script', cursive;
+    /* font-size: 1.5em; */
+}
+
+#header .social-media{
+    margin-top: 50vw;
+    padding: 0;
+    width: 100%;
+    
+    list-style: none;
+}
+
+
+.social-media .social-item{
+    margin-left: 0;
+    display: inline-block;
+    width: 30px;
+    background-color: #333;
+   
+}
+
+.social-media .social-item:active{
+    background-color: #999;
+}
+
+
+.nav-link:hover,.nav-link:active{
+    color:#61a4b0 !important;
+}
+
+/*---------------------------------About me-------------------*/
+#about-me{
+    margin-top: 23vw;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+#about-me .container{
+    padding-top: 10vw;
+    background-image: url('../images/01_1767x2500-paper-text.png');
+    background-size: cover; 
+}
+.about-img{
+    width:30%;
+    padding: 5px;
+    border-radius: 50% !important;
+    border: 1px solid #ccc;
+}
+
+#about-me .cite{
+    font-size: 3vw;
+    /* margin-left:7vw; */
+}
+
+.about-header{
+    margin-bottom: 5vw;
+}
+#about-me h1{
+    margin-bottom: 10vw;
+}
+#about-me h4{
+    margin-top: 8vw;
+}
+
+#about-me .interests{
+    margin-left: 5vw;
+}
+/*------------------------------Skills-------------------------*/
+
+/* .inner-list{
+    display:none;
+    transition: max-height 0.5s;
+} */
+#skills{
+    /* font-family: 'Libre Baskerville', serif;
+    font-family: 'Homemade Apple', cursive; */
+    font-family: 'Dancing Script', cursive;
+
+    /*
+    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Zeyada', cursive;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Pangolin', cursive; */
+}
+#skills .paper{
+    background-image: url('../images/01_1767x2500-paper-text.png');
+    background-size: cover;
+    padding-top: 10vw;
+
+}
+.skills-list{
+    list-style: none;
+}
+
+#skills h1{
+    /* font-family: 'Homemade Apple', cursive;
+    font-family: 'Caveat Brush', cursive; */
+    font-family: 'Dancing Script', cursive;
+    /* font-weight: 600; */
+}
+/*-----------------------------------education------------------*/
+#education{
+    
+    /* font-family: 'diamond dust'; */
+}
+.education-container{
+    padding-top:8vw ;
+    background-image: url('../images/01_1767x2500-paper-text.png');
+    background-size: cover;
+    color: #999;
+    /* background-color: #777; */
+}
+.education-container h3{
+    text-align: center;
+}
+.education-img-container{
+    width: 100%;
+    text-align: center;
+   
+}
+.education-col{
+    /* position: relative; */
+    
+}
+.education-col-text{
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    top:25%;
+    left:20%;
+}
+
+.education-col-right .education-col-text{
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    top:30%;
+    left:20%;
+}
+
+
+#education .education-img{
+    width: 50%;
+}
+/*--------------------------------footer-----------------*/
+#footer{
+    color:#999;
+}
+
+#footer .footer-container{
+    padding-top: 5vw;;
+    padding-bottom: 5vw;;
+    background-image: url('../images/01_1767x2500-paper-text.png');
+    background-size: cover;
+    text-align: center;
+}
+#footer img{
+    width:50%;
+}
+#footer .fin{
+    width:25%;
+}
+/*----------------------------------------------------*/
+/*---------------------------------Media Queries--------------*/
+
+/* medium */
+@media (min-width:768px){
+    
+    body{font-size:2.5vw;}
+    h1{font-size:6vw;}
+    h2{font-size:5vw;}
+    h3{font-size:4vw;}
+    h4{font-size:3vw;}
+    /*---------------------header------------------*/
+    #header .social-media{
+
+        margin-top: 30vw;
+    }
+
+    .social-media .social-item{
+        width: 5vw;
+    }
+    /*--------------------about me-----------------*/
+    #about-me{
+        text-align: left;
+    }
+    .about-img{
+        width:70%;
+    }
+
+    #about-me .cite{
+        font-size:2vw;
+        margin-left:7vw;
+    }
+
+    /*----------------education------------*/
+
+    .temp{
+        display: none !important;
+    }
+    .education-col-right .education-col-text{
+        top:25%;
+    }
+}
+
+/* large */
+@media (min-width:992px){
+    
+    body{font-size: 2.5vw;}
+    h1{}
+    h2{}
+    h3{}
+    h4{}
+    /*---------------------header------------------*/
+    #header .header-title{   
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+    .social-media .social-item{
+        width: 4vw;
+    }
+    /*--------------------about me-----------------*/
+    /*--------------------education------*/
+    
+} 
+
+/* xlarge */
+@media(min-width:1200px){
+    
+    body{font-size: 1.8vw;}
+    h1{font-size: 5vw;}
+    h2{font-size: 4vw;}
+    h3{font-size: 3vw;}
+    h4{font-size: 2vw;}
+    /*---------------------header------------------*/
+    #header .header-text-container{
+       
+        top:23vw;
+    }
+
+    
+    #header .job{   
+        margin-top: 5vw;
+        
+    }
+
+    #header .social-media{
+
+        margin-top: 10vw;
+    }
+    .social-media .social-item{
+        width: 3vw;
+    }
+    /*--------------------about me-----------------*/
+    
+    #about-me .cite{
+        font-size:1vw;
+    }
+} 
+
+
