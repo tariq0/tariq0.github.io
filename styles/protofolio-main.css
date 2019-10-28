@@ -31,6 +31,9 @@
 }
 
 /*--------------------------Global------------------------------*/
+html {
+    scroll-behavior: smooth;
+  }
 
 body{
     font-size: 3.6vw;
@@ -124,6 +127,10 @@ body{
     width: 30px;
     background-color: #333;
    
+}
+
+.social-media .social-item a{
+    color: white;
 }
 
 .social-media .social-item:active{
